@@ -1,0 +1,45 @@
+node-mixin-deep (2.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:43:26 +0200
+
+node-mixin-deep (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Move installed files to /usr/share/nodejs
+  * New upstream version 2.0.1 (Closes: #932500, CVE-2019-10746)
+  * Remove patches now included in upstream
+  * Update debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 20 Jul 2019 18:00:22 +0200
+
+node-mixin-deep (1.1.3-3) unstable; urgency=medium
+
+  * Team upload
+  * Back to debhelper 9 (Buster freeze)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 21 Apr 2019 14:34:56 +0200
+
+node-mixin-deep (1.1.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Add upstream/metadata
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Fix prototype pollution (Closes: #898315, CVE-2018-3719)
+  * Switch tests to pkg-js-tools
+  * Fix VCS fields
+  * Fix debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 21 Apr 2019 14:24:15 +0200
+
+node-mixin-deep (1.1.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #842329)
+
+ -- Sruthi Chandran <srud@disroot.org>  Fri, 28 Oct 2016 12:37:57 +0530

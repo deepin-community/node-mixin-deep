@@ -1,0 +1,31 @@
+Source: node-mixin-deep
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper (>= 12~)
+ , dh-buildinfo
+ , nodejs
+ , mocha
+ , node-should
+ , node-is-extendable
+ , node-for-in
+ , pkg-js-tools (>= 0.8.8)
+Standards-Version: 4.4.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-mixin-deep
+Vcs-Git: https://salsa.debian.org/js-team/node-mixin-deep.git
+Homepage: https://github.com/jonschlinkert/mixin-deep
+
+Package: node-mixin-deep
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-is-extendable
+ , node-for-in
+Description: Deeply mix the properties of objects into the first object
+ Like merge-deep, but doesn't clone.
+ .
+ Node.js is an event-based server-side JavaScript engine.
